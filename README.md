@@ -83,26 +83,4 @@ Exemplo de uso:
 - `platform`: BR1
 - `count`: 5
 
-## Como publicar no GitHub
 
-1. Crie um repositorio vazio no GitHub.
-2. Dentro da pasta do projeto, rode:
-
-```bash
-git init
-git add .
-git commit -m "feat: initial discord match history bot"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/discord-match-history-bot.git
-git push -u origin main
-```
-
-## Observacoes importantes
-
-- Nao suba seu arquivo `.env` para o GitHub.
-- Chaves de desenvolvimento da Riot expiram; se parar de funcionar, gere uma nova.
-- Para aprovacao de produto, descreva o bot como uma ferramenta de consulta de historico, perfil e estatisticas basicas, sem oferecer vantagem competitiva indevida.
-
-## Aviso legal
-
-Discord Match History Bot is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
